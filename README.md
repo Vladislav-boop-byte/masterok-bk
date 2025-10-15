@@ -26,6 +26,10 @@
       border-bottom: 1px solid #eee;
       padding-bottom: 8px;
     }
+    h3 {
+      color: #2c3e50;
+      margin-top: 20px;
+    }
     ul {
       padding-left: 20px;
     }
@@ -44,6 +48,18 @@
       border-radius: 8px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.05);
       margin: 20px 0;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     .footer {
       text-align: center;
@@ -68,6 +84,14 @@
       <li>✅ Чисто, аккуратно, в удобное для вас время</li>
       <li>✅ Мы используем профессиональные инструменты и оборудование</li>
     </ul>
+  </div>
+
+  <h2>Наши работы</h2>
+  <div class="gallery">
+    <!-- Замени ссылки ниже на свои фото -->
+    <img src="https://via.placeholder.com/400x300/e0e0e0/000000?text=До+%2F+После" alt="Ремонт плитки">
+    <img src="https://via.placeholder.com/400x300/e0e0e0/000000?text=Инструменты" alt="Профессиональные инструменты">
+    <img src="https://via.placeholder.com/400x300/e0e0e0/000000?text=Установка+ТВ" alt="Установка телевизора">
   </div>
 
   <h2>Наши услуги</h2>
